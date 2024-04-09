@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <section class="id">
+        <div class="id">
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div style="background-color: aqua;">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="nombre" required="true"></input><br>
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" placeholder="apellido" required="true"></input><br>
+                    </div>
+                    <div>
+                        <label for="email">Ingrese el email</label>
+                        <input type="email" name="email" id="email" placeholder="Ingrese el email" required="true"><br>
+                    </div>
+                    <div>
+                        <label for="edad">Ingrese la edad</label>
+                        <input type="number" id="edad" name="edad" placeholder="Ingrese la edad" required="true">
+                    </div>
+                    <div>
+                        <label for="">Genero</label><br>
+                        <input type="radio" id="femenino" name="genero" value="Femenino">
+                        <label for="">Femenino</label><br>
+                        <input type="radio" id="masculino" name="genero" value="Masculino">
+                        <label for="">Masculino</label>
+                    </div>
+                    <div>
+                        <label for="musica">Musica Favorita</label><br>
+                        <input type="radio" id="rap" name="rap" value="Rap">
+                        <label for="Rap">Rap</label><br>
+                        <input type="radio" id="urbano" name="urbano" value="Urbano">
+                        <label for="Rap">Urbano</label><br>
+                    </div>
+                    <div>
+                        <label for="">Lenguaje de programación</label><br>
+                        <input type="checkbox" name="programacion" id="java" value="Java">
+                        <label for="java">Java</label><br>
+                        <input type="checkbox" name="programacion" id="python" value="Python">
+                        <label for="python">Python</label><br>
+                    </div>
+                    <div>
+                        <label for="autos">Marca de autos Favoritos</label><br>
+                        <select name="autos" id="autos">
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Ferrari">Ferrari</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comentarios">Ingrese un comentario</label><br>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10">Este es mi comentario</textarea>
+                    </div>
+                    <div>
+                        <label for="password">Ingrese la contraseña</label>
+                        <input type="password" name="password" id="password" required="true"
+                            placeholder="Ingrese el password">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar"></input>
+                        <input type="submit" formnovalidate="formnovalidate" value="Enviar Datos sin validar">
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <p>Desarrollado por Luis Pilaguano</p>
+    </footer>
+
+</body>
+
+</html>
